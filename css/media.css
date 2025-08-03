@@ -1,0 +1,328 @@
+
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    a.btn.booking_point {
+    
+    display: none;
+}
+.language-area {
+    display: none;
+}
+  
+.logo-area a svg {
+    width: 100%;
+  
+}
+.menu_left {
+  
+    height: 0;
+}
+.menuLeft_button {
+    display: none;
+}
+
+.menuLeft_phone {
+    display: none;
+}
+.login-area {
+  
+    display: none;
+}
+
+a.btn.toggle_icon i {
+    font-size: 25px;
+}
+
+.productBox_img img {
+    width: 64px;
+}
+a.watch_img img {
+    height: 100% !important;
+}
+.productBox_img.samll_img img {
+    width: 64px;
+    height: 100%;
+}
+.productBox_img a img {
+    height: 100%;
+}
+.productName {
+    bottom: -94px;
+}
+.single-banner-product {
+    height: 0;
+   
+}
+.singleProduct_box button.slick-prev.slick-arrow {
+  
+    top: 44px;
+}
+.singleProduct_box button.slick-next.slick-arrow {
+   
+    top: 41px;
+}
+.aboutus-text {
+
+    padding-left: 0;
+}
+.aboutus_infoList {
+  
+    width: 324px;
+  
+}
+
+section.whychoose {
+    
+    height: 100%;
+    padding-top: 36px;
+}
+
+.whychooseText {
+    
+    padding-left: 58px;
+    width: 350px;
+   
+}
+.whyUs-img {
+    
+    height: 380px;
+}
+
+
+.featuredProduct_img {
+    justify-content: center;
+    margin-right: 0px;
+   
+}
+.featuredProduct_img img {
+    max-width: 100%;
+
+}
+.slider-nav {
+    margin-top: 0;
+    
+}
+.featuredProduct_details {
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
+
+
+
+.singleReview_box .slick-slide {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.singleReview_box .slick-slide > div {
+  width: 250px; /* Adjust as needed */
+  margin: auto;
+}
+.singleReview_box {
+  margin: 0 auto;
+  padding: 0;
+}
+.review_box .review_box_inner {
+   
+    padding: 14px;
+    width: 92%;
+
+    padding-bottom: 50px;
+    margin-top: 15px;
+}
+
+.sustain_box_inner {
+    width: 100%;
+   
+    padding: 14px;
+}
+.sustain_box_inner p {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 0 25px;
+}
+.sustain_box_inner h2 {
+  
+    font-size: 36px;
+    
+}
+.sustain_box_inner h3 {
+    font-size: 24px;
+    text-align: center;
+    padding: 0 72px;
+    line-height: 32px;
+}
+.sustain_box_inner h3 span {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/ 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        a.btn.booking_point {
+    
+    display: none;
+}
+.language-area {
+    display: none;
+}
+.menu_left {
+  
+    height: 0;
+}
+.menuLeft_button {
+    display: none;
+}
+
+.menuLeft_phone {
+    display: none;
+}
+a.btn.toggle_icon i {
+    font-size: 25px;
+}
+
+.productBox_img img {
+    width: 64px;
+}
+a.watch_img img {
+    height: 100% !important;
+}
+.productBox_img.samll_img img {
+    width: 64px;
+    height: 100%;
+}
+.productBox_img a img {
+    height: 100%;
+}
+.productName {
+    bottom: -94px;
+}
+.single-banner-product {
+    height: 0;
+   
+}
+.aboutus-text {
+
+    padding-left: 0;
+}
+.aboutus_infoList {
+  
+    width: 324px;
+  
+}
+
+section.whychoose {
+    
+    height: 100%;
+    padding-top: 36px;
+}
+
+.whychooseText {
+    
+    padding-left: 58px;
+    width: 350px;
+   
+}
+.whyUs-img {
+    
+    height: 380px;
+}
+
+
+.featuredProduct_img {
+    justify-content: center;
+    margin-right: 0px;
+   
+}
+.featuredProduct_img img {
+    max-width: 100%;
+
+}
+.slider-nav {
+    margin-top: 0;
+    
+}
+.featuredProduct_details {
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
+
+
+
+.singleReview_box .slick-slide {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.singleReview_box .slick-slide > div {
+  width: 250px; /* Adjust as needed */
+  margin: auto;
+}
+.singleReview_box {
+  margin: 0 auto;
+  padding: 0;
+}
+.review_box .review_box_inner {
+   
+    padding: 14px;
+    width: 92%;
+
+    padding-bottom: 50px;
+    margin-top: 15px;
+}
+
+.sustain_box_inner {
+    width: 100%;
+   
+    padding: 14px;
+}
+.sustain_box_inner p {
+    font-size: 20px;
+    line-height: 32px;
+ }
+ .sustain_box_inner h2 {
+    font-size: 36px;
+    
+}
+    
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    
+    
+ }
+
+
+ /* Extra-Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1299.98px) { 
+ 
+    
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1300px) {
+    
+    
+
+   
+
+    
+
+}

@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport'
+        content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-     
+    1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
+        referrerpolicy="no- 
+     referrer" />
+
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="css/media.css">
+    <title> Gold Standard Buys </title>
+</head>
+
+<body>
+<!-- first Form start -->
+  <div class="formOne bg-gray">
+      <div class="container">
+        <div class="row">
+            <div class="form_title text-center">
+                <h2>Please enter your location</h2>
+                <p>We use this to find the nearest CIRCA expert</p>
+            </div>
+        </div>
+        <div class="form_area">
+          <div class="row">
+            <div class="col-lg-6">
+                <div class="country_form">
+                  <select class="form-select" aria-label="">
+                    <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                  </select>
+                </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="zip_form">
+                <input type="text" placeholder="Zip Code">
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+  </div>
+<!-- first Form end  -->
+
+<!-- second form   start ---->
+  <div class="location_form bg-gray">
+    <div class="container my-5">
+      <h3 class="text-center">There are multiple locations nearby</h3>
+      <p class="text-center text-muted">Select your preferred CIRCA location</p>
+
+      <div class="row">
+        <!-- Tabs & Locations -->
+        <div class="col-md-6">
+          <ul class="nav nav-tabs mb-3" id="locationTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active tab-border" id="nearby-tab" data-bs-toggle="tab" data-bs-target="#nearby" type="button" role="tab">Locations within 50 miles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="other-tab" data-bs-toggle="tab" data-bs-target="#other" type="button" role="tab">Other locations</button>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="locationTabsContent">
+            <!-- Nearby Locations -->
+            <div class="tab-pane fade show active" id="nearby" role="tabpanel">
+              <div class="location-card ">
+              <!--- location Card header start -->
+                <div class="locationCard_header d-flex justify-content-between align-items-start">
+                  <h6><i class="bi bi-building"></i> CIRCA Bethesda</h6>
+                   <div class="text-end">
+                      <div class="distance-icon text-muted mb-2">
+                        <i class="bi bi-car-front"></i> 23.2 miles
+                      </div>
+                    </div>
+                </div>
+                 <!--- location Card header end -->
+                 <!---locatuonCard bottom start -->
+                <div class="locationCard_bottom d-flex justify-content-between align-items-end">
+                  <p class="mb-0"><i class="bi bi-geo-alt"></i> 7315 Wisconsin Avenue, Suite 230 E<br>Bethesda, MD 20814</p>
+                   <input type="radio" name="location" />
+                </div>
+                <!---locatuonCard bottom end -->
+              </div>
+              <div class="location-card ">
+              <!--- location Card header start  --->
+                <div class="locationCard_header d-flex justify-content-between align-items-start">
+                  <h6><i class="bi bi-building"></i> CIRCA Tysons</h6>
+                  <div class="text-end">
+                    <div class="distance-icon text-muted mb-2">
+                      <i class="bi bi-car-front"></i> 33.5 miles
+                    </div>
+                  </div>
+                </div>
+                 <!--- location Card header start  --->
+                
+                <!---locatuonCard bottom end -->
+                <div class="locationCard_bottom d-flex justify-content-between align-items-end">
+                  <p class="mb-0"><i class="bi bi-geo-alt"></i> 1750 Tysons Blvd, Suite 1500<br>McLean, VA 22102</p>
+                  <input type="radio" name="location" />
+                </div>
+                <!---locatuonCard bottom end -->
+              </div>
+            </div>
+
+        <!-- Other Locations -->
+        <div class="tab-pane fade" id="other" role="tabpanel">
+          <p>No other locations listed.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Google Map -->
+    <div class="col-md-6">
+      <div class="ratio ratio-4x3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18..." allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Continue Button -->
+  <div class="text-center mt-4">
+    <button class="btn btn-secondary px-5" disabled>Continue</button>
+  </div>
+    </div>  
+  </div>
+<!-- second form   end ---->
+
+<!--- time slot form start --->
+  <div class="time_slot bg-gray py-5">
+    <div class="container my-5">
+      <div class="time_title mb-4 text-center">
+        <h4>Available time slots</h4>
+        <p class="text-muted">Select the date & time of the appointment</p>
+      </div>
+      <div class="mb-3">
+        <select class="form-select w-auto">
+          <option selected>🏢 CIRCA Manhattan East</option>
+          <option>🏢 CIRCA Bethesda</option>
+          <option>🏢 CIRCA Tysons</option>
+        </select>
+      </div>
+  <!-- Time Slot Section -->
+  <div class="time-slot-section">
+    <!-- Day 1 -->
+    <div class="slot-day">Mon, Aug 4</div>
+    <div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 11:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 12:00 PM</div>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="slot-day">Tue, Aug 5</div>
+    <div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 09:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 11:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 12:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 01:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 02:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 03:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 04:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 05:00 PM</div>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="slot-day">Wed, Aug 6</div>
+    <div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 09:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 10:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 12:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 03:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 04:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 05:00 PM</div>
+    </div>
+     <!-- Day 1 -->
+    <div class="slot-day">Mon, Aug 4</div>
+    <div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 11:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 12:00 PM</div>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="slot-day">Tue, Aug 5</div>
+    <div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 09:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 11:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 12:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 01:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 02:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 03:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 04:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 05:00 PM</div>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="slot-day">Wed, Aug 6</div>
+    <div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 09:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 10:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 12:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 03:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 04:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 05:00 PM</div>
+    </div>
+     <!-- Day 1 -->
+    <div class="slot-day">Mon, Aug 4</div>
+    <div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 11:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 12:00 PM</div>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="slot-day">Tue, Aug 5</div>
+    <div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 09:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 11:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 12:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 01:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 02:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 03:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 04:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 05:00 PM</div>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="slot-day">Wed, Aug 6</div>
+    <div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 09:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 10:00 AM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 12:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 03:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 04:00 PM</div>
+      <div class="slot-btn"><i class="bi bi-clock"></i> 05:00 PM</div>
+    </div>
+  </div>
+
+  <!-- Notification checkbox -->
+  <div class="time_slot_footer  mt-4 d-flex justify-content-between align-items-center ">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="notifyCheck">
+          <label class="form-check-label" for="notifyCheck">
+            Notify me if an earlier appointment becomes available
+          </label>
+      </div>
+       <button class="btn btn-secondary px-5" disabled>Continue</button>
+      <p class="">
+        Can’t find a suitable date?<a href="tel:8778765493" class="text-primary">Call us at 877.876.5493</a>
+      </p>
+  </div>
+</div>
+  
+  </div>
+<!--- time slot form end  --->
+
+<!--- email section start --->
+
+<div class="email-section bg-gray">
+    <h2>Please enter your email address to continue</h2>
+    <p>Next we'll ask for item details to confirm your appointment</p>
+    <form class="email-form">
+      <input type="email" name="email" placeholder="Enter your email" required />
+    </form>
+  </div>
+
+<!--- email section start --->
+<!--- code section start --->
+
+<div class="email-section bg-gray">
+    <h2>Enter your verification code</h2>
+    <p>We sent a verification code to ..... Please enter it below.</p>
+    <form class="code" >
+      <input type="text" name="text" placeholder="Enter code" required />
+    </form>
+  </div>
+
+<!--- code  section start --->
+
+<!--- tellus form start  --->
+<section class="tellusform bg-gray">
+    <h2>Tell us about your items</h2>
+    <p>
+      Please add descriptions and photos (optional) of each item. Take multiple photos of each item (ex. front, back) and include photos of paperwork, if available.
+      <a href="#">Click here</a> for examples and detailed photography guidelines.
+    </p>
+    <div class="textarea">
+      <textarea placeholder="Describe your item(s)"></textarea>
+    </div>
+  
+
+    <div class="upload-box">
+      <label for="upload">Add photos</label>
+      <div class="upload-icon">
+        <input type="file" id="upload" multiple>
+      </div>
+    </div>
+    <div class="help-section">
+      <button class="button-disabled" disabled>Continue</button>
+      <div class="help-inner">
+        Need help?<br>
+        <a href="tel:8778765493">Call 877.876.5493</a>
+        <a href="mailto:clientcare@circajewels.com">Email clientcare@circajewels.com</a>
+      </div>
+    </div>
+    
+
+    <div class="footer-text">
+      CIRCA does not buy diamonds under a certain carat weight, lab grown, or treated diamonds.<br>
+      View a full list of what we buy <a href="#">here</a>.
+    </div>
+
+   
+  </section>
+
+
+<!--- tellus form end  --->
+
+
+
+
+    <script src='js/jquery.min.js'></script>
+    <script src='js/bootstrap.bundle.min.js'></script>
+    <script src='js/popper.min.js'></script>
+    <script src="js/slick.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src='js/custom.js'></script>
+
+</body>
+</html>
+
+<style>
+.formOne {
+    padding: 20px 0;
+}
+.form_area {
+    max-width: 600px;
+    margin: auto;
+}
+.formOne .form-select:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+.zip_form input {
+    width: 100%;
+    padding: 5px 9px;
+    border: 1px solid #ddd;
+}
+.location_form {
+    padding: 20px 0;
+}
+ul#locationTabs {
+    background: #ffff;
+}
+ul#locationTabs li {
+    width: 50%;
+    text-align: center;
+}
+
+#locationTabs .nav-link {
+    border: none !important;
+    color: rgba(82, 82, 91, 1);
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#locationTabs .nav-link.active {
+    border-bottom: 2px solid #333 !important;
+}
+
+.location-card {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.location-card h6 {
+    font-weight: 500;
+}
+
+
+.locationCard_header {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 8px;
+}
+
+/*** time slot css ***/
+.slot-btn {
+    padding: 10px 37px;
+    margin: 5px;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: rgb(244 244 245);
+}
+    .slot-btn.active {
+      background-color: #0d6efd;
+      color: white;
+      border-color: #0d6efd;
+    }
+    .slot-btn:hover {
+      background-color: #e2e6ea;
+    }
+    .slot-day {
+      font-weight: 500;
+      margin-top: 20px;
+    }
+
+
+.time-slot-section {
+    max-height: 300px;
+    overflow-y: scroll;
+    background: #fff;
+    padding: 20px;
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 0;
+}
+
+
+
+/****  email form ******/
+.email-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+    .email-section h2 {
+     font-family: Adobe Garamond Pro;
+    font-size: 1.875rem;
+    font-weight: 400;
+    line-height: 1.25;
+      color: #000;
+    }
+   .email-section p {
+    font-size: 1.125rem;
+}
+
+    .email-form {
+      max-width: 480px;
+      margin: 0 auto;
+      display: flex;
+      gap: 10px;
+    }
+
+   .email-form input[type="email"] {
+    flex: 1;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    outline: none;
+}
+
+
+
+form.code input {
+    width: 400px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+:focus,
+:focus-visible {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+/*****  tellusform start *******/
+
+    .tellusform {
+     
+      margin: 80px auto;
+      padding: 20px;
+   
+    }
+
+    .tellusform h2 {
+       font-family: Adobe Garamond Pro;
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      color: #111;
+      text-align: center;
+    }
+
+    .tellusform p {
+      font-size: 18px;
+      color: #444;
+      margin: 0 auto 20px;
+      line-height: 1.6;
+    }
+
+    .tellusform p a {
+      color: #0074e8;
+      text-decoration: none;
+      font-style: italic;
+    }
+
+    .textarea {
+    text-align: center;
+}
+
+    .tellusform textarea {
+      width: 100%;
+      max-width: 700px;
+      height: 140px;
+      padding: 12px 16px;
+      font-size: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      resize: vertical;
+      outline: none;
+      margin-top: 10px;
+    }
+.tellusform .upload-box {
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 77px;
+}
+
+    .tellusform .upload-box label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      font-size: 16px;
+      color: #000;
+    }
+
+    .tellusform .upload-icon {
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      border: 2px dashed #aaa;
+      border-radius: 6px;
+      position: relative;
+    }
+
+    .tellusform .upload-icon::before {
+      content: "\1F4F7"; /* Camera emoji */
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #000;
+    }
+
+    .tellusform .upload-icon input[type="file"] {
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      cursor: pointer;
+    }
+
+    .tellusform .button-disabled {
+    display: block;
+    margin: 30px auto 15px;
+    padding: 16px 90px;
+    background-color: #999;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    
+}
+.tellusform .footer-text {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+    .tellusform .footer-text a {
+      color: #0074e8;
+      font-style: italic;
+      text-decoration: none;
+    }
+
+    .tellusform .help-inner {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .tellusform .help-inner a {
+      color: #0074e8;
+      text-decoration: none;
+      display: block;
+    }
+
+    @media (max-width: 600px) {
+      .tellusform {
+        margin: 40px 20px;
+      }
+      .tellusform textarea {
+        height: 120px;
+      }
+    }
+
+
+.help-section {
+    display: flex;
+}
+
+
+
+
+
+
+
+</style>

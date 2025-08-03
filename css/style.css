@@ -1,0 +1,939 @@
+/***** Google font **********/
+
+
+
+
+/***** Google font end  **********/
+
+/***** custom font  *******/
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/BrandonGrotesque-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/BrandonGrotesque-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/BrandonGrotesque-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/BrandonGrotesque-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/BrandonGrotesque-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/BrandonGrotesque-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/******* Adobe Garamond Pro  *********/
+
+
+
+@font-face {
+    font-family: 'Adobe Garamond Pro';
+    src: url('../fonts/adobe-garamond/AGaramondPro-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Adobe Garamond Pro';
+    src: url('../fonts/adobe-garamond/AGaramondPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/***** custom font end  *******/
+body {
+  font-family: 'Brandon Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+  overflow-x: hidden;
+font-size: 16px;
+  
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; 
+   margin-bottom: 0; 
+ 
+}
+
+.section-title {
+    text-align: center;
+   
+}
+.section-title h2 {
+    font-size: 36px;
+    font-family: 'Adobe Garamond Pro';
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+
+.section-title p {
+  font-size: 16px;
+  color: #666;
+}
+
+.bg-gray {
+    background: rgb(245 245 245);
+}
+/**** header top css start ****/
+
+.header-toparea {
+    height: 3.5rem;
+    background: rgb(245 245 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text h2 {
+    font-size: 14px;
+    letter-spacing: .7px;
+    line-height: 21px;
+}
+
+.language-area {
+  position: relative;
+}
+
+.language-selector {
+  position: relative;
+  display: inline-block;
+}
+
+.lang-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 14px;
+}
+.lang-options {
+    display: none;
+    position: absolute;
+    top: 24px;
+    left: 0;
+    background: #fff;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+    width: 71px;
+    z-index: 999;
+}
+
+.lang-options li {
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.lang-options li:hover {
+  background-color: #f0f0f0;
+}
+
+.lang-options li.active {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+.language-selector.open .lang-options {
+  display: block;
+}
+.lang-toggle i {
+  transition: all 0.2s ease;
+  font-size: 12px;
+}
+
+.up-arrow,
+.down-arrow {
+  margin-left: 5px;
+}
+
+
+/**** header top css end ****/
+
+/********** main menu **********/
+.fixed-top {
+    top: -40px;
+    transform: translateY(40px);
+    transition: transform .3s;
+    padding: 0 !important;
+    
+}
+
+.booking_point{
+    display: none;
+}
+.fixed-top .booking_point{
+    display: block;
+}
+.menu_left {
+    display: flex;
+}
+.menuLeft_button ul {
+    list-style: none;
+}
+.menuLeft_button ul li {
+    float: left;
+}
+.menuLeft_button ul li a {
+    text-decoration: none;
+    /* display: inline-block; */
+    color: #000;
+    font-size: 16px;
+    margin-right: 60px;
+}
+.menu_left {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    height: 100%;
+}
+.logo-area img {
+    max-width: 98px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-area a svg {
+    width: 120px;
+    color: #000;
+}
+
+div#headerMenu {
+    padding: .75rem 0;
+    background: #fff;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+}
+
+a.faq {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.menuLeft_phone {
+
+
+  color: #000;
+  position: relative;
+}
+
+.number-selector {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.number-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.number-toggle i {
+  font-size: 10px;
+  transition: transform 0.3s ease;
+  color: #000;
+}
+
+#arrowUp {
+  display: none;
+}
+
+.number-selector.active #arrowDown {
+  display: none;
+}
+
+.number-selector.active #arrowUp {
+  display: inline-block;
+}
+
+.number-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  padding: 0;
+  margin-top: 5px;
+  list-style: none;
+  z-index: 999;
+  min-width: 180px;
+}
+
+.number-options li {
+  padding: 6px 10px;
+  color: #000;
+  white-space: nowrap;
+}
+.number-options li.selected {
+  background-color: #000;
+  color: #fff;
+}
+.number-options li:hover {
+    background-color: #f2f2f2;
+    color: #000;
+}
+.number-selector.active .number-options {
+  display: block;
+}
+.login-area {
+    text-align: right;
+    margin-right: 26px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+.login-area a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+a.btn.booking_point {
+    /* display: block; */
+    background: #000;
+    color: #fff;
+    border-radius: 0 0 0 0!important;
+    /* padding: 51px; */
+    width: 150px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 16px;
+    font-family: 'Adobe Garamond Pro';
+    font-weight: 400;
+    padding: .75rem;
+}
+
+/****** faq offcanvas area css start ********/
+
+.mobile_faq .offcanvas {
+    top: 116px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.mobile_faq .modal-backdrop {
+    background-color: transparent;
+}
+
+.mobile_faq .btn-check:focus+.btn, .btn:focus {
+  
+    box-shadow: none !important;
+}
+.faq-btn {
+    padding: 0 0;
+    width: 100%;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+h3#topOffcanvasLabel\ faq_topSlide_title {
+    font-size: 30px;
+    font-family: 'Adobe Garamond Pro';
+}
+.faq_topSlide ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.faq_topSlide ul li a {
+    text-decoration: none;
+    color: #71717A;
+    font-size: 20px;
+    display: block;
+    margin: 10px 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #e7f1ff00;
+    box-shadow: 0 0;
+}
+button.accordion-button.faq_question {
+    font-size: 20px;
+  
+}
+
+
+
+/****** faq offcanvas area css end ********/
+
+
+
+
+/**** banner-area css start*******/
+.herobanner-area {
+    text-align: center;
+    background: rgb(245 245 245);
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.banner-text {
+    margin-bottom: 80px;
+}
+.single-banner-product {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.productBox_img a img {
+    height: 112px;
+}
+
+
+
+a.watch_img img {
+    height: 240px !important;
+    
+}
+.productName h2 a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.productBox_img.samll_img img {
+    width: 195px;
+    height: 41px;
+}
+.productName {
+    position: absolute;
+    bottom: -83px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+
+
+/*****   about us css start *******/
+
+section.aboutUs {
+    background: #000000;
+}
+.aboutus-text h2 a {
+    font-family: Adobe Garamond Pro;
+    font-size: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 32px;
+    display: block;
+}
+.aboutus-text h2 a {
+    font-family: Adobe Garamond Pro;
+    font-size: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #fff;
+}
+.aboutus_img img {
+    width: 640px;
+}
+.aboutus_img {
+    position: relative;
+}
+
+.aboutus_infoList {
+    display: flex;
+    gap: 30px;
+    width: 464px;
+    margin-bottom: 20px;
+}
+.info_number {
+    color: rgb(82, 82, 82);
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.aboutus-text {
+    width: 550px;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 110px;
+}
+
+.info-text h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+.info-text p {
+    line-height: 24px;
+    color: #A3A3A3;
+    padding-right: 24px;
+}
+
+/***** whychoose us css start ******/
+section.whychoose {
+    background: rgb(38 38 38);
+    height: 600px;
+}
+.whyUs-img {
+    background: url(../images/ring.webp) no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+}
+.whychooseText {
+    color: #fff;
+    padding-left: 100px;
+    width: 567px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 600px;
+}
+.whychooseText h3{
+    font-family: 'Adobe Garamond Pro';
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 50px;
+}
+.whychooseText p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #A3A3A3;
+}
+/***** whychoose us css end ******/
+
+
+
+/*****   featuredProduct  css start *******/
+.featuredProduct_area {
+  padding: 60px 0;
+  background-color: #fff;
+}
+.feauredProduct_box {
+  padding: 30px 20px;
+}
+
+.featuredProduct_img {
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+    align-items: center;
+}
+
+.featuredProduct_img img {
+    max-width: 450px;
+    height: 200px;
+    
+}
+
+.featuredProduct_details h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.featuredProduct_details p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(82 82 91);
+    font-weight: 400;
+    opacity: 1;
+}
+
+.featuredProduct_details h4 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: normal;
+   color: rgb(82 82 91);
+}
+
+/* === Thumbnail Slider === */
+.slider-nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.slider-nav::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.featuredProduct_list {
+  width: 90px;
+  height: 90px;
+  margin: 0 8px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.featuredProduct_list img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.singleProduct_box .slick-prev,
+.singleProduct_box .slick-next {
+
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9;
+  border: none;
+  cursor: pointer;
+}
+
+.singleProduct_box .slick-slide.is-active {
+    box-shadow: rgba(56, 56, 56, 0.3) 0px 4px 17px -5px;
+    padding: 14px;
+   
+    
+}
+
+.singleProduct_box .slick-slide {
+  /* Your inactive slide styles */
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+
+
+.singleProduct_box button.slick-prev.slick-arrow {
+    left: 0;
+     font-size: 45px;
+    color: #A3A3A3;
+    background: none;
+}
+
+
+.singleProduct_box button.slick-next.slick-arrow {
+    right: 0;
+    font-size: 45px;
+    color: #A3A3A3;
+    background: none;
+}
+
+
+/***** review section css ******/
+.review-area {
+
+    color: #fff;
+    padding: 100px 0;
+     --tw-bg-opacity: 1;
+    background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+.single_review {
+    width: 1240px;
+    margin: 0 auto;
+}
+.review-area .section-title {
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Adobe Garamond Pro';
+}
+.review-sponsor {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 24px;
+}
+
+.review-sponsor img {
+    width: 150px;
+    height: 37px;
+}
+
+.review-sponsor h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.review_icon ul {
+    margin: 0;
+    padding: 0;
+}
+.review_icon ul li {
+    /* display: flex; */
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.review_box .review_box_inner {
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 24px;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 120px;
+    margin-top: 20px;
+}
+
+.review_author h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.review_author p {
+    font-size: 14px;
+    color: rgb(212 212 216);
+}
+.review_box_inner {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 10px;
+    padding: 16px 20px;
+}
+
+/********  location css start ***********/
+.location-area {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background: rgba(218, 218, 218, 0.5) url(../images/location-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover; /* optional, based on your design */
+    background-position: center;
+}
+.area-title h3 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Adobe Garamond Pro';
+    margin-bottom: 50px;
+}
+.location_name h2 {
+    font-family: Adobe Garamond Pro;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.location_box_inner{
+    justify-content: center;
+}
+.location_box_inner ul li{
+ list-style: none;
+ text-align: center;
+}
+
+.location_box_inner ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+   
+/******  sustainability-area  css *******/
+
+.sustainability-area {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background: rgba(218, 218, 218, 0.5) url(../images/capo-blanco.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.sustain_box_inner {
+    width: 1110px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    margin-top: 30px;
+    padding: 40px;
+}
+.sustain_box_inner h2 {
+    font-family: Adobe Garamond Pro;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.sustain_box_inner h3 {
+    font-family: Adobe Garamond Pro;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.sustain_box_inner p {
+    font-size: 20px;
+    line-height: 32px;
+    padding: 0 107px;
+}
+
+.sustain_box_inner a {
+    font-family: Adobe Garamond Pro;
+    color: #fff;
+    font-size: 26px;
+    font-style: italic;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.sustain_box_inner a:after {
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+.sustain_box_inner a:hover {
+    color: rgb(12, 74, 110);
+}
+
+
+.sustain_box_inner a:hover::after{
+  background: rgb(12, 74, 110);
+}
+
+/*******  client logo area  css start********/
+
+.client-area {
+    background: rgb(245 245 245);
+    padding: 30px 0;
+}
+.logo_list ul {
+    margin: 0;
+    padding: 0;
+}
+.logo_list ul li {
+    list-style: none;
+    display: inline;
+    /* text-align: center; */
+}
+.logo_list ul li a {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+/****  footer-area css  start *****/
+footer.footer-area {
+    background: rgb(245 245 245);
+    padding: 30px 0;
+
+}
+
+.footer_widget_box h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer_widget_box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer_widget_box ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 0;
+}
+.social-icon ul li{
+
+display: inline;
+}
+
+.social-icon ul li a {
+    display: inline;
+}
+
+.social-icon ul li a {
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 12px;
+    margin-top: 16px;
+}
+
+.copy_right {
+    text-align: center;
+    padding: 40px 0;
+}
+.copy_right h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 17px;
+}
+.copy_right p {
+    font-size: 12px;
+}
